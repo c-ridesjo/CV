@@ -1,0 +1,15 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@import "layout/mobile";
+
+@media screen and (min-width: 640px) { 
+    @import "layout/tablet";
+}
+
+@media screen and (min-width: 1024px) { 
+    @import "layout/desktop";
+}

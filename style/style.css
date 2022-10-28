@@ -1,0 +1,1 @@
+.clearfix::after{content:"";clear:both;display:table}.full-page{min-height:100vh}body{margin:0;background-size:cover;background-position:center;height:100vh;font-family:Rubik,sans-serif;font-weight:lighter;font-size:12px}
