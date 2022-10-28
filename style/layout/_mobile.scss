@@ -1,22 +1,4 @@
-.full-page {
-    min-height: 100vh;
-}
-
-header {
-
-    height: auto;
-    padding-right: 230px;
-    padding-left: 40px;
-    padding-top: 20px;
-    position: relative;
-    text-align: right;
-
-    background-color: black;
-    color: white;
-}
-
 body {
-
     margin: 0;
     background-size: cover;
     background-position: center;
@@ -24,13 +6,39 @@ body {
     font-family: Arial, sans-serif;
     font-size: 12px;
     background-color: white;
-
 }
 
-article {
-    width: 50%;
-    margin-left: 450px;
-    margin-top: 40px;
+header {
+    height: auto;
+    padding-right: 230px;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: relative;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+aside {
+    display: block;
+    border-top: 2px;
+    border-color: black;
+    max-width: 25vw;
+    margin-top: 0px;
+    margin-left: 0;
+    background-color: rgb(209, 208, 208);
+    position: absolute;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+}
+
+.full-page {
+    min-height: 100vh;
+}
+
+.profilbild {
 
 }
 
@@ -48,36 +56,14 @@ h2 {
     font-size: 16px;
 }
 
-
-a:link {
-    /*länkar*/
-    color: rgb(51, 9, 219);
-    text-decoration: none;
-    text-transform: none;
+ul {
+    
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
-aside {
-    /* Rutan To the moon*/
-    display: block;
-    border-top: 2px;
-    border-color: black;
-    max-width: 25vw;
-    margin-top: 0px;
-    margin-left: 0;
-    background-color: rgb(209, 208, 208);
-    position: absolute;
-    font-weight: 500;
-    font-size: 12px;
-    text-align: left;
-    padding: 10px;
+article {
+    width: 50%;
+    margin-left: 450px;
+    margin-top: 40px;
 }
 
 
@@ -87,3 +73,4 @@ aside {
     text-align: center;
     background: rgb(209, 208, 208);
 }
+
