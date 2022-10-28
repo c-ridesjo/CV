@@ -26,14 +26,15 @@ aside {
     border-top: 2px;
     border-color: black;
     max-width: 25vw;
-    margin-top: 0px;
+    margin-top: -140px;
     margin-left: 0;
     background-color: rgb(209, 208, 208);
-    position: absolute;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 16px;
     text-align: left;
     padding: 10px;
+    z-index: 1;
+    position: relative;
 }
 
 .full-page {
@@ -42,7 +43,10 @@ aside {
 }
 
 .profilbild {
-
+    border-radius: 50%;
+    width: 150px;
+    padding: 10px;
+    
 }
 
 h1 {
@@ -60,16 +64,12 @@ h2 {
 }
 
 article {
-    width: 50%;
-    margin-left: 450px;
+    width: 40%;
     margin-top: 40px;
 }
 
-
-.footer {
-    margin-top: 300px;
-    padding: 20px;
-    text-align: center;
-    background: rgb(209, 208, 208);
+main {
+    border-width: 1px;
+    border-style: double;
+    border-color: black;
 }
-
