@@ -10,7 +10,6 @@ header{
     padding-top: 20px;
     position: relative;
     text-align: right;
- 
 
     background-color: black;
     color: white;
@@ -22,17 +21,17 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    font-family: Rubik, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 12px;
+    background-color: white;
 
 }
 
 article {
     width: 50%;
     margin-left: 450px;
-
     margin-top: 40px;
-
+    
 }
 
 h1 {
@@ -46,12 +45,7 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 20px;
-}
-
-h3 {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 16px;
 }
 
 
@@ -72,6 +66,8 @@ a:active {
 
 aside {
     /* Rutan To the moon*/
+    display: block;
+    border-color: 1 px black;
     max-width: 25vw;
     margin-top: 0px;
     margin-left: 0;
@@ -84,14 +80,9 @@ aside {
 }
 
 
-
-footer {
-    /*sidfot*/
-    font-size: 12px;
-    color:black;
-    text-shadow: 2px 2px 5px rgb(36, 3, 24);
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: relative;
-}
+.footer {
+    margin-top: 300px;
+    padding: 20px;
+    text-align: center;
+    background: light grey;
+    }
