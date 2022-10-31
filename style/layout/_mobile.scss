@@ -1,20 +1,20 @@
 body {
-    margin: 0;
+    margin: 30px;
     padding: 40px;
     background-size: cover;
     background-position: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: white;
   
 }
 
 header {
-    height: 10vw;
+    height: 15vw;
     padding-right: 230px;
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
     position: relative;
     text-align: right;
     background-color: black;
@@ -26,11 +26,11 @@ aside {
     border-top: 2px;
     border-color: black;
     max-width: 25vw;
-    margin-top: -140px;
-    margin-left: 0;
+    margin-top: -180px;
+    margin-left: 30px;
     background-color: rgb(209, 208, 208);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
     padding: 10px;
     z-index: 1;
@@ -58,18 +58,21 @@ ul {
 }
 
 h1 {
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-size: 3rem;
 }
 
 h2 {
-    margin: 0;
-    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 0;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1,5rem;
+    border-bottom: 2px solid black;
 }
 
 p {
@@ -77,7 +80,7 @@ p {
 }
 
 article {
-    width: 40%;
+    width: 50%;
     margin-top: 40px;
 }
 
