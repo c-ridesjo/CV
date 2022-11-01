@@ -5,7 +5,7 @@ body {
     padding-top: 10px;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     font-family: Arial, sans-serif;
     font-size: 1rem;
     background-color: white;
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    height: 16vw;
+    min-height: 16vw;
     padding-top: 30px;
     position: relative;
     background-color: rgb(13, 13, 13);
@@ -110,6 +110,7 @@ article {
     width: 55%;
     margin-top: 0;
     margin-left: 20px;
+    padding-bottom: 60px;
 }
 
 main {
@@ -122,4 +123,14 @@ main {
     display: flex;
     justify-content: space-between;
     max-width: 650px;
+}
+
+footer {
+    min-height: 4vw;
+    padding: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    text-align: center;
 }
