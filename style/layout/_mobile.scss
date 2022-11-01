@@ -1,7 +1,8 @@
 body {
     margin: 80px;
-    margin-top: 10px;
-    padding: 40px;
+    margin-top: 0;
+    padding: 60px;
+    padding-top: 10px;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -12,11 +13,9 @@ body {
 
 header {
     height: 16vw;
-
     padding-top: 30px;
     position: relative;
-
-    background-color: black;
+    background-color: rgb(54, 54, 54);
     color: white;
 }
 
@@ -25,9 +24,9 @@ aside {
     border-top: 2px;
     border-color: black;
     max-width: 25vw;
-    margin-top: -230px;
+    margin-top: -250px;
     margin-left: 30px;
-    background-color: rgb(253, 242, 229);
+    background-color: rgb(237, 237, 240);
     font-weight: 500;
     font-size: 1rem;
     text-align: left;
@@ -45,18 +44,18 @@ aside {
     border-radius: 50%;
     margin-left: 15px;
     margin-right: 40px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 40px;
 }
 
 .circle {
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     background-color: transparent;
     height: 220px;
     width: 220px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 5px;
     position: relative;
 }
 
@@ -70,7 +69,7 @@ ul {
 
 h1 {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 3rem;
@@ -78,14 +77,14 @@ h1 {
 
 .titel {
     display: block;
-    margin-left: 40px;
+    margin-left: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 1rem;
 }
 
 h2 {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -95,7 +94,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(224, 117, 9);
+    color: rgb(206, 109, 5);
     line-height: 20px;
 }
 
@@ -104,8 +103,9 @@ p {
 }
 
 article {
-    width: 50%;
-    margin-top: 26px;
+    width: 60%;
+    margin-top: -12px;
+    margin-left: 20px;
 }
 
 main {
