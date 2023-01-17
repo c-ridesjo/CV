@@ -1,1 +1,1 @@
-Min CV i HTML/CSS - ett skolprojekt.
+Mitt CV i HTML/CSS - ett skolprojekt.
