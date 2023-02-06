@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     font-family: Arial, sans-serif;
     font-size: 1rem;
-    background-color: white;
+    background-color: #F2E5E5;
 }
 
 .word_container {
@@ -20,8 +20,8 @@ header {
     top: auto;
     padding-top: 30px;
     position: sticky;
-    background-color: rgb(13, 13, 13);
-    color: white;
+    background-color: #411530;
+    color: #F5E8E4;
 }
 
 aside {
@@ -31,7 +31,7 @@ aside {
     max-width: 70vw;
     margin-top: -240px;
     margin-left: 20px;
-    background-color: rgb(249, 248, 251);
+    background-color: #E8C4C4;
     font-weight: 500;
     font-size: 1rem;
     text-align: left;
@@ -99,7 +99,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(206, 106, 24);
+    color: #D1512D;
     line-height: 20px;
 }
 
@@ -139,7 +139,7 @@ footer {
     padding: 30px;
     margin-bottom: 1px;
     position: relative;
-    background-color: rgb(13, 13, 13);
-    color: white;
+    background-color: #411530;
+    color: #F5E8E4;
     text-align: center;
 }
